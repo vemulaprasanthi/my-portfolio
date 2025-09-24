@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+</head>
+
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo">Prasanthi</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Services</a>
+      <a href="#skills-section">Skills</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+     
+    </nav>
+  </header>
+<section class="home" id="home">
+  <div class="home-content">
+    <div class="text-wrapper">
+      <h3 class="intro-text-line1">Hello! I'm</h3>
+      <h2 class="intro-text-line2">Naga Prasanthi Vemula</h2>
+      <h3 class="intro-text-line3">Full Stack Developer</h3>
+      <p class="professional-text">
+        I build scalable, high-performing web applications with a focus on clean architecture.
+Every project is a chance to solve real-world problems with creativity and code.
+      </p>
+    </div>
+
+    <div class="home-sci">
+      <a href="images/Prasanthi(22K61A1259).pdf" target="_blank" class="resume-btn">Resume</a>
+      <a href="https://www.linkedin.com/in/vemula-naga-prasanthi-2b0790280/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/vemulaprasanthi" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://leetcode.com/u/prasanthivemula/" target="_blank">
+      <img src="images/Leetcode_logo_black.png" class="icon-img" alt="Leetcode" />
+      </a>
+    </div>
+    <a href="#about" class="btn-box">More About Me</a>
+  </div>
+  <div class="home-img">
+    <img src="images/prasanthi.png" alt="My photo" />
+  </div>
+</section>
+
+  
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/prasanthi.png">
+    </div>
+    <div class="about-text">
+      <h3>AboutMe</h3>
+      <h4>Full Stack Developer</h4>
+      <p>I'm a passionate full stack developer with hands-on experience in building responsive web applications using technologies like React, Node.js, and MongoDB.
+Currently pursuing my degree in Computer Science, I enjoy solving real-world problems through clean and scalable code.
+Always eager to learn and grow, I'm exploring new tools and best practices to become industry-ready.</p>
+    <a href="a" class="btn-box about-btn">More About Me</a>
+    </div>
+  </section>
+  <section>
+    <div class="skills" id="skills">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="bx bx-code" style='color:aqua'></i>
+            <h2>Web Development</h2>
+            <p>I design and build responsive, full-stack web applications using technologies like React, Node.js, and MongoDB. From frontend to backend, I ensure performance and user experience. </p>
+            <a href="a" class="read">learn more</a>
+          </div>
+          <div>
+            <i class="bx bx-crop"></i>
+            <h2>Frontend Development</h2>
+            <p>Clean, interactive, and responsive UI using HTML, CSS, JavaScript, and modern frameworks like React.js or Vue.js.</p>
+            <a href="a" class="read">learn more</a>
+          </div>
+          <div>
+            <i class="bx bxl-apple" style='color:aqua'></i>
+            <h2>Git & Version Control</h2>
+            <p>Collaborate on projects using Git & GitHub, follow best commit practices, and work with branching, pull requests, and merge conflict resolution.</p>
+            <a href="a" class="read">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-section" id="skills-section">
+  <h2 class="skills-title"><span>My</span> <span>Skills</span></h2>
+  <div class="skills-grid">
+    <div class="skill-card"><i class="fab fa-html5"></i><span>HTML</span></div>
+    <div class="skill-card"><i class="fab fa-css3"></i><span>CSS</span></div>
+    <div class="skill-card"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+        <div class="skill-card"><i class="fab fa-react"></i><span>React</span></div>
+    <div class="skill-card"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+    <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
+    <div class="skill-card"><i class="fab fa-java"></i><span>Java</span></div>
+    <div class="skill-card"><i class="fas fa-leaf"></i><span>MongoDB</span></div>
+    <div class="skill-card"><i class="fab fa-git-alt"></i><span>Git</span></div>
+    <div class="skill-card"><i class="fas fa-database"></i><span>SQL</span></div>
+  </div>
+</section>
+<section>
+  <div class="portfolio" id="portfolio">
+    <div class="main-text" id="project">
+      <h1>Projects</h1>
+      <div class="portfolio-content">
+        <div class="row">
+          <img src="images/web-ui.png" >
+            <div class="layer">
+            <h5>AI Agent with Browser Automation</h5>
+            <p>Built an AI-powered web agent using Python, Playwright, and Gemini API with a custom Web-UI for task automation.</p>
+            <a href="#"><i class='bx bx-link-external' style="color:aliceblue"></i></a>
+            <a href="https://github.com/vemulaprasanthi/AI-AGENT" target="_blank"><i class="fab fa-github"></i><span class="github-text">GitHub</span></a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="images/UI.png" >
+          <div class="layer">
+            <h5>Gemini-AI ChatBot</h5>
+            <p>Built chatbot using React.js, Node.js, and Gemini API, improving response speed by 30%.
+
+</p>
+            <a href="#"><i class='bx bx-link-external' style="color:aliceblue"></i></a>
+            <a href="https://github.com/vemulaprasanthi/Gemini-Chatbot" target="_blank"><i class="fab fa-github"></i><span class="github-text">GitHub</span></a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="images/game.jpg" >
+          <div class="layer">
+            <h5>Mobile Game App</h5>
+            <p>Built a responsive Tic Tac Toe game using HTML, CSS, and JavaScript, optimized for smooth performance on mobile devices.
+
+</p>
+            <a href="#"><i class='bx bx-link-external' style="color:aliceblue"></i></a>
+            <a href="https://github.com/vemulaprasanthi/AI-AGENT" target="_blank"><i class="fab fa-github"></i><span class="github-text">GitHub</span></a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="images/student_management_system.png">
+          <div class="layer">
+            <h5>Student Management System</h5>
+            <p>Developed a full-stack Student Management System to manage student records and performance efficiently.
+          
+            </p>
+            <a href="#"><i class='bx bx-link-external' style="color:aliceblue"></i></a>
+            <a href="https://github.com/vemulaprasanthi/Student-Management-System" target="_blank"><i class="fab fa-github"></i><span class="github-text">GitHub</span></a>
+          </div>
+        </div>
+        <div class="row">
+          <img src="images/calculator.png">
+          <div class="layer">
+            <h5>Caluculator</h5>
+            <p>Built a responsive Calculator app using HTML, CSS, and JavaScript with support for basic arithmetic operations.
+            
+            </p>
+            <a href="#"><i class='bx bx-link-external' style="color:aliceblue"></i></a>
+            <a href="https://github.com/vemulaprasanthi/Calculator" target="_blank"><i class="fab fa-github"></i><span class="github-text">GitHub</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="certifications" class="certifications-section">
+  <h2 class="section-title">Certifications</h2>
+  <p class="section-description">Professional certifications and courses that have enhanced my technical expertise</p>
+
+  <div class="certifications-container">
+    <div class="certification-card">
+      <h3>Oracle Cloud Infrastructure AI Foundations
+Associate</h3>
+      <p>Validated foundational knowledge of Artificial Intelligence concepts, services, and real-world applications on Oracle Cloud Infrastructure.</p>
+      <a href="images/Ai Foundations by oracle.jpg" class="cert-btn" target="_blank">View Certificate</a>
+    </div>
+    <div class="certification-card">
+      <h3>AWS Cloud</h3>
+      <p>Completed the AWS Cloud Certification, demonstrating foundational knowledge of cloud computing and AWS services.</p>
+      <a href="images/22K61A1259-Aws cloud virtual internship.pdf" class="cert-btn" target="_blank">View Certificate</a>
+    </div>
+    <div class="certification-card">
+      <h3>Full Stack Development (MERN) by
+APSCHE & SmartBridge</h3>
+      <p>Gained hands-on experience in building and deploying full-stack web applications using the MERN (MongoDB, Express, React, Node.js) stack through industry-led training.</p>
+      <a href="images/22K61A1259_SmartBridge.pdf" class="cert-btn" target="_blank">View Certificate</a>
+    </div>
+    <div class="certification-card">
+      <h3>Introduction to MongoDB by Mongodb
+University</h3>
+      <p>Acquired foundational skills in MongoDB, including data modeling, CRUD operations, and basic database management, through MongoDB University training.</p>
+      <a href="images/Mongodb university cert.pdf" class="cert-btn" target="_blank">View Certificate</a>
+    </div>
+    <!-- <div class="certification-card">
+      <h3>Problem Solving using Java</h3>
+      <p>Completed the Java Problem Solving certification, showcasing proficiency in solving algorithmic challenges using Java.</p>
+      <a href="images/prasanthi00-Java Problem Solving.pdf" class="cert-btn" target="_blank">View Certificate</a>
+    </div> -->
+
+    <div class="certification-card">
+      <h3>Introduction to Machine Learning-NPTEL</h3>
+      <p>Completed the "Introduction to Machine Learning" certification from NPTEL, demonstrating foundational knowledge in ML algorithms and concepts.</p>
+      <a href="images/Introduction to Machine Learning.pdf" class="cert-btn" target="_blank">View Certificate</a>
+    </div>
+  </div>
+</section>
+<section class="contact-section" id="contact">
+  <h1>Contact Me</h1>
+  <div class="contact-container">
+    <div class="contact-details">
+      <p><span class="icon">📞</span> +91 8978117466 </p>
+      <p><span class="icon">📧</span> <a href="mailto:prasanthivemula@gmail.com">prasanthivemula4@gmail.com</a></p>
+      <p><span class="icon">📍</span> Andhra Pradesh, India</p>
+    </div>
+
+    <div class="contact-form">
+      <h3>Send a Message</h3>
+      <form id="contact-form" action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+<h1 class="typing-text"><span id="typed"></span></h1>
+ <script src="main.js"></script>
+</body>
+</html>
