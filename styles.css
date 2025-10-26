@@ -297,96 +297,95 @@ body {
   align-items: flex-start;
   padding-right: 20px;
 }
-#services{
-  color:black;
-  font-size:20px;
-  line-height:1.4;
-  margin-bottom:4rem;
-}
-.sub-title{
-  text-align:center;
-  font-size:60px;
-  padding-bottom:70px;
-}
-.sub-title {
-  color: purple;
-}
-.container{
-  padding:90px;
-}
-.services-list{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  grid-gap:40px;
-  margin-top:50px;
-}
-.services-list div{
-  background-color: transparent;
-  padding:40px;
-  font-size:20px;
-  font-weight:13px;
-  border-right:10px;
-  border-radius:20px;
-  transition: background 0.5s, transform 0.5s;
-  box-shadow:1px 1px 20px blue;
-}
-.services-list div i{
-  font-size:20px;
-  margin-bottom:30px;
-  color:black;
-}
-.services-list div p{
-  color:black;
-}
-.services-list div h2{
-  font-size:30px;
-  font-weight:500;
-  margin-bottom:15px;
-  color:maroon;
-}
-.services-list div a{
-  text-decoration: none;
-  color:black;
-  font-size:12px;
-  margin-top:20px;
-  display:inline-block;
-}
-@keyframes slideTop {
-  0% {
-    transform: translateY(20px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+.education-section {
+  padding: 50px 20px;
+  background-color: #f0f4ff;
+  text-align: center;
 }
 
-.read{
-  display:inline-block;
-  padding:12px 28px;
-  background:pink;
-  border-radius: 40px;
-  font-size:16px;
-  color:white;
-  letter-spacing:1px;
-  text-decoration: none;
-  font-weight:600;
-  opacity: 0;
-  animation:slideTop 1s ease forwards;
-  animation-delay:2s;
-  box-shadow:0 0 5px navy,
-  0 0 25px navy;
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #001f7a;
+  margin-bottom: 40px;
 }
-.read:hover{
-   transform: scale(1.1);
-  box-shadow: 0 0 10px navy;
-  color:black;
-  background:pink;;
+
+.education-section {
+  padding: 50px 20px;
+  background-color: #f0f4ff;
+  text-align: center;
 }
-.services-list div:hover{
-  transform:translateY(-10px);
+
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #001f7a;
+  margin-bottom: 40px;
 }
+
+.timeline-container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  padding-left: 40px; /* increased to prevent overlap with the line/dot */
+}
+
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #001f7a;
+  border-radius: 2px;
+}
+
+.timeline-block {
+  position: relative;
+  background: lightcyan;
+  border-radius: 8px;
+  padding: 20px 20px 20px 60px; /* left padding for the dot */
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: left;
+  z-index: 1;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -30px; /* move it more left */
+  top: 20px;
+  background: #001f7a;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  z-index: 2; /* make sure dot is on top */
+}
+
+.timeline-content .edu-year {
+  background-color: #001f7a;
+  color: white;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timeline-content h3, .timeline-content p {
+  margin: 5px 0;
+  color: #001f7a; /* ensure text is visible */
+}
+.edu-institute i {
+  color: #ff5722; 
+}
+
 .skills-section {
   padding: 60px 10%;
   /* background:; */
